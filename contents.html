@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- BULLET LIST using <ul> i.e. Unordered List-->
+    <h2> <i>Contents</i> </h2>
+    <ul>
+        <li>History</li>
+        <li>Overview</li>
+        <ul>
+            <li>Modelling</li>
+            <li>Layout and Animation</li>
+            <ul>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+                <li>Fourth</li>
+            </ul>
+            <li>Materials and Texture</li>
+            <li>Rendering</li>
+        </ul>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>Software</li>
+        <!-- Using type = i for Roman Numerals list -->
+        <ol type="i" start="5">
+            <li>File Formats</li>
+            <li>Modelling</li>
+            <li>CAD</li>
+            <li>Complementary tools</li>
+            <li>Clutter Tools</li>
+        </ol>
+        <li>Commuities</li>
+    </ol>
+
+    <hr>
+
+    <!-- action represents what happens on submit -->
+    <form class="" action="mailto:guptahimachal@gmail.com" method="POST" enctype="text/plain">
+        <!-- <table>
+            <tr>
+                <td><label> Your Name:</label></td>
+                <td><input type="text" name="value"></td>
+                <td><input type="submit" name=""></td>
+            </tr>
+            <tr>
+                <td><label>DOB:</label></td>
+                <td><input type="date" name="Dob"></td>
+                <td><input type="submit" name=""></td>
+            </tr>
+        </table> -->
+
+        <br><br>
+
+        <label> Your Name:</label><br>
+        <input type="text" name="yourName">
+        
+        <br>
+        
+        <label>DOB:</label><br>
+        <input type="date" name="yourDOB">
+        
+        <br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" name="yourPassword">
+        
+        <br>
+
+        <!-- if we dont use name=""  attribute then multiple options can be selected-->
+        <label for="Branch"> Branch: </label><br>
+        <input type="radio" id="Branch" value="CSE" name="yourBranch">CSE
+        <input type="radio" id="Branch" value="IT" name="yourBranch">IT
+        <input type="radio" id="Branch" value="ECE" name="yourBranch">ECE
+        <input type="radio" id="Branch" value="ME" name="yourBranch">ME
+
+        <br><br>
+
+        <label for="yourMessage">Message:</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="">
+
+    </form>
+    
+
+</body>
+
+</html>
