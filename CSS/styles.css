@@ -27,7 +27,12 @@ img {
 }
 
 .img2 {
-    width: 50%;
+    width: 200px;
+    height: 300px;
+}
+
+.img2:hover {
+    transform: scale(0.5);
 }
 
 
