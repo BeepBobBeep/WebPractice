@@ -29,3 +29,10 @@ img {
 .img2 {
     width: 50%;
 }
+
+
+/* ID SELECTORS */
+
+#temple {
+    width: 80%;
+}
