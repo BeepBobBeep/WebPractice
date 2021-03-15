@@ -1,3 +1,5 @@
+/* TAG SELCTORS */
+
 body {
     background-color: #a5e061;
 }
@@ -11,4 +13,19 @@ hr {
 
 h1 {
     color: #0a3506;
+}
+
+img {
+    background-color: #e06161;
+}
+
+
+/* CLASS SELCTORS */
+
+.img1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 50%;
 }
